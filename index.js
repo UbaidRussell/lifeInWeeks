@@ -8,4 +8,4 @@ function lifeInWeeks(age){
 
 }
 
-lifeInWeeks(50);
+lifeInWeeks(/*Enter Number*/);
