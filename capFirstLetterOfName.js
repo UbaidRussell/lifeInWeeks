@@ -19,7 +19,7 @@ var upperCaseFirstChar = firstChar.toUpperCase();
 var restOfName = name.slice(1,name.length);
 
 //d concatenate the first char with the rest of the char
-var wholeName = upperCaseFirstChar + restOfName; 
+var wholeName = upperCaseFirstChar + restOfName.toLowerCase(); 
 
 //Step 3 
 //We use the capitalized version in order to greet them using a alert 
