@@ -5,4 +5,4 @@ var loveScore = Math.random() * 100;
 loveScore = Math.floor(loveScore) + 1;
 
 
-console.log(name1 + " and "+ name2 + " have a love rate of " + loveScore);
+console.log(name1 + " and "+ name2 + " have a love rate of " + loveScore +"%");
