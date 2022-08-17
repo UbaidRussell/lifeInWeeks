@@ -1,3 +1,4 @@
+//Two ways to change a string to lowercase. One saved One Unsaved.
 //This way is unsaved.
 var name = "RUSSELL";
 name.toLowerCase();
