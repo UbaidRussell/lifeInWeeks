@@ -1,3 +1,4 @@
+//An emoticon is a group of keyboard characters like [ : ) ] that typically represent emoji's but are instead made only with a keyboard and a dab of creativity. Here's we tinkered with a few and developed a program that can output one depending on the input.
 
 const toEmoticon = emoticon => {
   switch (emoticon){
