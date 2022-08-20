@@ -1,3 +1,4 @@
+//Tells us the number of digits in a number
 function numberDigits(x){
   if (x >= 0 && x <= 9){
     return `One digit: ${x}`
