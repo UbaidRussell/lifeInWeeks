@@ -5,6 +5,9 @@ const famousSayings = ['Fortune favors the brave.', 'A joke is a very serious th
 let listItem = famousSayings[0];
 console.log(listItem);
 
+//This line should take 'where there is love there is life.' off of hours list.------------------------------------------
+famousSayings.pop();
+
 //This one outputs where there is love there is life. 
 console.log(famousSayings[2]);
 
