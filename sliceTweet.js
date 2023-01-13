@@ -9,3 +9,10 @@ alert(tweetUnder140);
 
 // second way
 alert(prompt("Compose your tweet: ").slice(0,140));
+
+// playing with code, testing out writing a function
+function tweetCutter (x){
+    if (x > 140){
+        
+    }
+}
