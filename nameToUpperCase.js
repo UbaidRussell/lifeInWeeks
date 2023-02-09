@@ -5,3 +5,5 @@ name.toUpperCase();
 //Use this way to save to the console
 var name = "russell";
 name = name.toUpperCase();
+
+console.log(name)
