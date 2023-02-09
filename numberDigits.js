@@ -9,3 +9,5 @@ function numberDigits(x){
   }
 
 }
+
+console.log(numberDigits(33));
