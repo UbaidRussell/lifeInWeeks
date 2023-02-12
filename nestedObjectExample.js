@@ -31,3 +31,4 @@ let spaceship = {
   
   console.log(capFave)
   console.log(firstPassenger)
+  console.log(spaceship.crew.captain.encourageTeam())
