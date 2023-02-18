@@ -1,9 +1,7 @@
 //Here we created a function that allows us to create student objects with different properties
 const studentCreation = (name, age, gender, quote) => {
     return{
-        name: name, 
-        age: age, 
-        gender: gender, 
+        name,age,gender, 
         yearQuote(){
             console.log(quote);
         }
