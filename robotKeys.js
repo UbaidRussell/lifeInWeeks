@@ -12,3 +12,6 @@ const robotKeys = Object.keys(robot); //Assigning a variable is one way we can g
 console.log(robotKeys)
 
 console.log(Object.keys(robot)) // This is another way we can also get the same output. 
+
+//This logs our Object entries
+console.log(Object.entries(robot))
