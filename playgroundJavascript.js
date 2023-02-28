@@ -74,6 +74,7 @@ const addTwo = num => {
 
 
 // This is the fifth javascript playground code
+  console.log(' ')
   console.log('These are the output for  the .map method:')
   const animals = ['Hen', 'elephant', 'llama', 'leopard', 'ostrich', 'Whale', 'octopus', 'rabbit', 'lion', 'dog'];
 
