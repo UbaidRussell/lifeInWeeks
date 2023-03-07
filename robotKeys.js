@@ -9,7 +9,9 @@ const robot = {
 };
 
 const robotKeys = Object.keys(robot); //Assigning a variable is one way we can get our out.
+const robotValues = Object.values(robot); //This code gets our values
 console.log(robotKeys)
+console.log(robotValues)
 
 console.log(Object.keys(robot)) // This is another way we can also get the same output. 
 
