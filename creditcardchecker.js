@@ -90,5 +90,3 @@ function cardType(cardNumber){
       }
 }
 
-
-
