@@ -15,6 +15,3 @@ function subLength(string , char){
 }
 
 console.log(subLength('Hello my name is Ubaid'/*Test statement*/, 7  /*Test number */ ))
-
-
-

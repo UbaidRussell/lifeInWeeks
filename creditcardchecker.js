@@ -25,12 +25,34 @@ const batch = [valid1, valid2, valid3, valid4, valid5, invalid1, invalid2, inval
 
 // Add your functions below:
 
-function validateCred(array){
-    
+function validateCred(cardNumber){
+    cardNumber = cardNumber.splt(' ').join("")
+    if (parseInt(cardNumber) === 0 ||/*This code I don't understand, I intend to study it somemore in the future and learn what exactly is going on here ->*/ (!/\d{15,16}(W[a - zA - Z])*$/.test(cardNumber)) || cardNumber.length > 16){
+        return false;
+    }
+    var carray = new Array();   
+    for (var i = 0; i < cardNumber.length; i++){
+        carray[carray.length] = cardNumber.charCodeAt(i) - 48;
+    }
+
+    carray.reverse(); //The Luhn algorithm approaches numbers from the end so we have to reverse our array
+    var sum = 0; 
+    for (var i = 0; i < carray.length; i++){
+        var tmp = carray[i];
+        if ((i % 2) != 0){
+            tmp *= 2; 
+            if(tmp > 9){
+                tmp -= 9; 
+            }
+        }
+        sum += tmp;
+    }
+    return(sum % 10) == 0;
+
 }
-
-
-
+function cardType(cardNumber){
+        
+}
 
 
 
