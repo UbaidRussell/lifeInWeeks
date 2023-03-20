@@ -9,3 +9,16 @@ fahrenheit = Math.floor(fahrenheit)
 
 
 console.log(`The temperature is ${fahrenheit} degress Fahrenheit`)
+
+/* 
+Great work! Kelvin can now publish his forecasts in Celsius and Fahrenheit.
+
+If you’d like extra practice, try this:
+
+Convert celsius to the Newton scale using the equation below
+Newton = Celsius * (33/100)
+
+Round down the Newton temperature using the .floor() method
+Use console.log and string interpolation to log the temperature in newton to the console
+
+*/
