@@ -1,3 +1,6 @@
+//This program gets us a certain amount of values in a fibonacci sequence
+//in order to run it we just have to throw a number into out fibonacci function
+
 function fibonacciGenerator(n){
     var output = [];
     if (n === 1){
@@ -17,3 +20,5 @@ function fibonacciGenerator(n){
 
     return output;
 }
+
+console.log(fibonacciGenerator(50))
