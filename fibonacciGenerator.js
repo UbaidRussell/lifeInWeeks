@@ -20,5 +20,5 @@ function fibonacciGenerator(n){
 
     return output;
 }
-
+//All we have to do is enter a value into our generator function and we can get that amount of values in sequence starting from 0
 console.log(fibonacciGenerator(50))
