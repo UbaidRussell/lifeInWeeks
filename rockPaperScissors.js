@@ -31,23 +31,24 @@ const determineWinner = (userChoice, computerChoice) =>{
   if (userChoice === computerChoice){
     return 'You guys both scored a tie'
   } 
-//Test for ROCK
+        //Test for ROCK
         if (userChoice === 'rock'){if (computerChoice === 'paper'){return 'Computer has won'} else {return 'User has won'}}
-      //Test for Paper
+        //Test for Paper
         if (userChoice === 'paper'){if (computerChoice === 'scissor'){return 'computer has won'} else { return 'user has won'}}
-      //Test for scissors
+        //Test for scissors
         if (userChoice === 'scissors'){ if (computerChoice === 'rock'){return 'computer has won'} else {return 'user has won'}}
 
 }
 
-let userChoice = getUserChoice('Rock');
-let computerChoice = getComputerChoice()
-
-
-
-
-
-
-console.log(`Our user thrown ` + userChoice)
-console.log(`Our computer thrown ` + computerChoice)
-console.log(determineWinner(userChoice, computerChoice))
+function playGame(){
+    let userChoice = getUserChoice('Rock');
+    let computerChoice = getComputerChoice()
+    
+    console.log(`Our user thrown ` + userChoice)
+    console.log(`Our computer thrown ` + computerChoice)
+  
+    console.log(determineWinner(userChoice, computerChoice))
+}
+  
+playGame();
+  
