@@ -51,4 +51,3 @@ function playGame(){
 }
   
 playGame();
-  
