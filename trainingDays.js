@@ -1,5 +1,6 @@
 const name = 'Nala';
 const name2 = 'Warren';
+const name3 = 'Lucas';
 
 //This function gets us a random event
 const getRandEvent = () => {
@@ -49,3 +50,12 @@ const days2 = getTrainingDays(event2);
 //Function caller 2
 logEvent(name2, event2);
 logTime(name2, days2);
+
+console.log(' ')
+
+const event3 = getRandEvent();
+const days3 = getTrainingDays(event3);
+
+//function caller 3
+logEvent(name3, event3);
+logTime(name3, days3);
