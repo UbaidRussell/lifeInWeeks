@@ -1,6 +1,6 @@
-const name = 'Nala';
-const name2 = 'Warren';
-const name3 = 'Lucas';
+const name = 'Ubaid';
+const name2 = 'Jorge';
+const name3 = 'Jonathan';
 
 //This function gets us a random event
 const getRandEvent = () => {
