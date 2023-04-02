@@ -21,4 +21,4 @@ const toEmoticon = emoticon => {
   }
 }
 
-console.log(toEmoticon("whatever"));
+console.log(toEmoticon("heart"));
