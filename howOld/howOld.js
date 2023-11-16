@@ -19,11 +19,7 @@ const howOld = (age, year) =>{
     }
   }
   
-  
-  
-  
-  
-  // Once your function is written, write function calls to test your code!
-  console.log(howOld(20, 2030))
+
+howOld(age, year)
   
   
