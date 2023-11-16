@@ -1,3 +1,8 @@
+let age = prompt("What is your age?");
+let year = prompt("What year were you born?");
+
+
+
 // Write your function here:
 const howOld = (age, year) =>{
     const date = new Date().getFullYear();//This line works and we have the current year
