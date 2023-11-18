@@ -1,5 +1,5 @@
-let age = prompt("What is your age?");
-let year = prompt("What year were you born?");
+let userInputAge = prompt("What is your age?");
+let userInputYear = prompt("What year were you born?");
 let text = document.querySelector('h1')
 
 
@@ -12,15 +12,13 @@ const howOld = (age, year) =>{
     const newAge = age + yearDifference;
     
     if(newAge > age){
-      text.innerHTML = `You will be ${newAge} in the year ${year}`
+     return `You will be ${newAge} in the year ${year}`
     } else if(newAge < 0){
-      text.innerHTML = `The year ${year} was ${-newAge} years before you were born`
+      return `The year ${year} was ${-newAge} years before you were born`
     } else {
-      text.innerHTML = `You were ${newAge} in the year ${year}`
+      return `You were ${newAge} in the year ${year}`
     }
   }
   
 
-howOld(age, year)
-  
-  
+text.innerHTML = howOld(userInputAge, userInputYear)
