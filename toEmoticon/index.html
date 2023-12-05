@@ -4,11 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>toEmoticon</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <!-- Content: We want to use a form here 🚨 -->
     <div class="container">
-        <p>This will change</p>
+        <form action="/action_page.php">
+
+            <label for="emoji">Choose an emoji</label>
+
+            <select id="emoji" name="emoji">
+            <option value="shrug">shrug</option>
+            <option value="smiley face">smiley face</option>
+            <option value="frowny face">frowny face</option>
+            <option value="winky face">winky face</option>
+            <option value="heart">heart</option>
+            <option value="default">default</option>
+            </select>
+          
+            <input type="submit" value="Submit">
+          </form>   
+       
     </div> 
 
     <!-- Script -->
