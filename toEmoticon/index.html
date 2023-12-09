@@ -9,7 +9,7 @@
 <body>
     <!-- Content: We want to use a form here 🚨 -->
     <div class="container">
-        <form action="answerPage.html" method="post"><!--We have to add a path here 🚨-->
+        <form action="answerPage.html" ><!--We have to add a path here 🚨-->
             <label for="emojiChoices">Choose an emoji</label>
 
             <select id="emojiChoices" name="emoji">
@@ -18,12 +18,10 @@
                 <option value="frowny face">frowny face</option>
                 <option value="winky face">winky face</option>
                 <option value="heart">heart</option>
-                <option value="default">default</option>
             </select>
 
             <!--One of these buttons we will not need-->
             <input type="submit" value="Submit" onclick="getValue()">
-            <button type="button" onclick="getValue()">Get Value</button>
           </form>   
     </div> 
 
