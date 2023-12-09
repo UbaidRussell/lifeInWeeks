@@ -9,9 +9,10 @@
 <body>
     <!-- Content: We want to use a form here 🚨 -->
     <div class="container">
-        <form action="answerPage.html"><!--We have to add a path here 🚨-->
-            <label for="emoji">Choose an emoji</label>
-            <select id="emoji" name="emoji">
+        <form action="answerPage.html" method="post"><!--We have to add a path here 🚨-->
+            <label for="emojiChoices">Choose an emoji</label>
+
+            <select id="emojiChoices" name="emoji">
                 <option value="shrug">shrug</option>
                 <option value="smiley face">smiley face</option>
                 <option value="frowny face">frowny face</option>
@@ -19,6 +20,7 @@
                 <option value="heart">heart</option>
                 <option value="default">default</option>
             </select>
+            
             <input type="submit" value="Submit">
           </form>   
     </div> 
