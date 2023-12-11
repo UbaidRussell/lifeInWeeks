@@ -40,10 +40,7 @@ const getValue = () => {
 }
 
 
-
-
-
-//This function is used to stop the page from reloading when the submit button is clicked
+//This function is used to stop the page from reloading when the submit button is clicked and also displays our emoticon.
 document.addEventListener('DOMContentLoaded', function() {
   // Add a submit event listener to the form
   form.addEventListener('submit', function (event){
