@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
   form.addEventListener('submit', function (event){
     // Prevent the default form submission behavior
     event.preventDefault();
-
     inputOutputted.textContent = toEmoticon(userInput);
+    
   });
 });
