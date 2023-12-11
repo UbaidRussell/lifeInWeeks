@@ -1,7 +1,7 @@
-const form = document.getElementById('myForm');
+const form = document.querySelector('form');
 let userInput;
 
-let inputOutputted = document.getElementById('second-page-answer');
+let inputOutputted = document.getElementById('result');
 
 
 
@@ -39,4 +39,17 @@ const getValue = () => {
   return selectedValue;
 }
 
-toEmoticon(userInput);
+
+
+
+
+//This function is used to stop the page from reloading when the submit button is clicked
+document.addEventListener('DOMContentLoaded', function() {
+  // Add a submit event listener to the form
+  form.addEventListener('submit', function (event){
+    // Prevent the default form submission behavior
+    event.preventDefault();
+
+    inputOutputted.textContent = toEmoticon(userInput);
+  });
+});
