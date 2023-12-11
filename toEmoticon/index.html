@@ -9,7 +9,7 @@
 <body>
     <!-- Content: We want to use a form here 🚨 -->
     <div class="container">
-        <form action="answerPage.html" ><!--We have to add a path here 🚨-->
+        <form>
             <label for="emojiChoices">Choose an emoji</label>
 
             <select id="emojiChoices" name="emoji">
@@ -22,8 +22,12 @@
 
             <!--One of these buttons we will not need-->
             <input type="submit" value="Submit" onclick="getValue()">
-          </form>   
+          </form>
     </div> 
+    <!--Results-->
+    <div class="container" id="result">
+
+    </div>
 
     <!-- Script -->
     <script src="toEmoticon.js"></script>

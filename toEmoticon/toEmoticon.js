@@ -1,4 +1,7 @@
 const form = document.getElementById('myForm');
+let userInput;
+
+let inputOutputted = document.getElementById('second-page-answer');
 
 
 
@@ -28,10 +31,12 @@ const toEmoticon = emoticon => {
 const getValue = () => {
   // Access the form and select element
   var dropdown = document.getElementById('emojiChoices');
-
   // Get the selected value
   var selectedValue = dropdown.value;
-
-  // Use the value as needed
+  //Change our userInput variable to the selected value
+  userInput = selectedValue;
+  // returns our selected value
   return selectedValue;
 }
+
+toEmoticon(userInput);
