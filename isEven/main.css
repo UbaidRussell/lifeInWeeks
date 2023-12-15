@@ -1,3 +1,27 @@
 body{
-    background-color: black;
+    background-color: #304D30;
+    font-family: 'Silkscreen', sans-serif;
+}
+form{
+    background-color: #304D30;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 10%;
+}
+#labelField{
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+:root{
+    --font-family-sans-serif: cera-round-pro, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    --font-family-serif: fa-livory, "Georgia", "Times New Roman", "Times", serif;
+    --font-family-monospace: "Menlo", "Monaco", "Consolas", "Courier New", monospace;
 }
