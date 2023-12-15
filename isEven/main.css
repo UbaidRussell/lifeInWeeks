@@ -15,8 +15,9 @@ form{
     border-radius: 10px;
     margin: 0 auto;
     width: 50%;
-    margin-top: 10%;
-    padding: 10%;
+    margin-top: 5%;
+    padding: 5%;
+    margin-bottom:5%;
 }
 #labelField{
     color: #B6C4B6;
