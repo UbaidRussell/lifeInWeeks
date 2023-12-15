@@ -3,12 +3,13 @@ body{
     font-family: 'Silkscreen', sans-serif;
 }
 form{
-    background-color: #304D30;
+    background-color: #343A4B;
     padding: 20px;
     border-radius: 10px;
     margin: 0 auto;
     width: 50%;
     margin-top: 10%;
+    padding: 10%;
 }
 #labelField{
     color: #B6C4B6;
