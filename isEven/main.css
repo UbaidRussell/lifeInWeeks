@@ -2,6 +2,13 @@ body{
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
     font-family: 'Silkscreen', sans-serif;
 }
+h1{
+    color: #EEF0E5;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10%;
+
+}
 form{
     background-color: #343A4B;
     padding: 20px;
@@ -26,4 +33,16 @@ input[type=number] {
     width: 100%;
     border: none;
     font-size: 20px;
+  }
+  button{
+    background-color: #EEF0E5;
+    font-family: 'Silkscreen', sans-serif;
+    color: black;
+    border-radius: 20px;
+    padding: 5px;
+    width: 80%;
+    margin-left:10%;
+    border: none;
+    font-size: 20px;
+    margin-top:100px;
   }
