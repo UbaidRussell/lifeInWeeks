@@ -11,17 +11,18 @@ form{
     margin-top: 10%;
 }
 #labelField{
-    color: #FFFFFF;
+    color: #B6C4B6;
     font-size: 20px;
     padding-bottom: 20px;
 }
-
-
-
-
-
-:root{
-    --font-family-sans-serif: cera-round-pro, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    --font-family-serif: fa-livory, "Georgia", "Times New Roman", "Times", serif;
-    --font-family-monospace: "Menlo", "Monaco", "Consolas", "Courier New", monospace;
-}
+input[type=number] {
+    background-color: #EEF0E5;
+    color: black;
+    background-color: #EEF0E5;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+  }
