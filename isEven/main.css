@@ -3,10 +3,10 @@ body{
     font-family: 'Silkscreen', sans-serif;
 }
 h1{
-    color: #EEF0E5;
+    color: #ffffff;
     font-size: 60px;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 0%;
 
 }
 form{
@@ -35,7 +35,7 @@ input[type=number] {
     font-size: 20px;
   }
   button{
-    background-color: #EEF0E5;
+    background-color: #ffffff;
     font-family: 'Silkscreen', sans-serif;
     color: black;
     border-radius: 20px;
