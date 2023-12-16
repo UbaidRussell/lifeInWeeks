@@ -12,14 +12,10 @@ function isEven(num){
 
 //This gets our userInput and logs it to the console
 function getUserInput(){
-  // Access the input element
   var userInputElement = document.getElementById('number');
-
-  // Get the value entered by the user
   var userInputValue = userInputElement.value;
-
-  // Use the value as needed
   console.log('User entered:', userInputValue);
+  return userInputValue;
 }
 
 
@@ -28,8 +24,6 @@ function getUserInput(){
 document.addEventListener('DOMContentLoaded', function() {
   form.addEventListener('submit', function (event){
     event.preventDefault();
+    console.log(isEven(getUserInput()));
   });
 });
-
-
-console.log(isEven(/*Enter Number here*/));
