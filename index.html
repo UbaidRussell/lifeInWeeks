@@ -47,11 +47,17 @@
         function showSlide(index) {
           const slider = document.querySelector('.slider');
           const slideWidth = document.querySelector('.slide').offsetWidth;
+          const totalSlides = slider.children.length;
       
-          if (index >= 0 && index < slider.children.length) {
+        if (index < 0) {
+            currentIndex = totalSlides - 1;
+            } else if (index >= totalSlides) {
+            currentIndex = 0;
+            } else {
             currentIndex = index;
-            slider.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
-          }
+        }
+
+        slider.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
         }
       
         function prevSlide() {
