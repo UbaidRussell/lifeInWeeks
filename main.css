@@ -8,3 +8,53 @@ body{
     padding: 1rem;
     text-align: center;
 }
+a{
+    color: #FEFAE0;
+    text-decoration: none;
+}
+
+.slider-container {
+    width: 40%;
+    margin: auto;
+    margin-top:2%;
+    margin-bottom:10%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  .slide p{
+    text-align:center;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius:20px;
+  }
+
+  /* Optional: Add navigation buttons */
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    background-color: #333;
+    border: none;
+    padding: 10px;
+    outline: none;
+  }
+
+  .prev { left: 0; }
+  .next { right: 0; }
