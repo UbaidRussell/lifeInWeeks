@@ -16,8 +16,6 @@ a{
 .slider-container {
     width: 40%;
     margin: auto;
-    margin-top:2%;
-    margin-bottom:10%;
     overflow: hidden;
     position: relative;
   }
@@ -30,6 +28,9 @@ a{
   .slide {
     min-width: 100%;
     box-sizing: border-box;
+    height: 600px; /* Set a fixed height for all slides */
+    overflow: hidden;
+    border-radius: 20px;
   }
   .slide p{
     text-align:center;
@@ -37,7 +38,8 @@ a{
 
   img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
     display: block;
     border-radius:20px;
   }
