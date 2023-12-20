@@ -1,10 +1,10 @@
 body{
-    background-color: darkslategray;
+    background-color: #5F6F52;
     font-family: 'Playfair Display', serif;
     font-size: 150%;
 }
 .header-container{
-    color: #fff;
+    color: #FEFAE0;
     padding: 1rem;
     text-align: center;
 }
