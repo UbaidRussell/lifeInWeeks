@@ -1,4 +1,4 @@
-//This program gives us a love score.
+//This program gives us a love score for two people
 
 var name1 = prompt("Give me a name");
 var name2 = prompt("Give me another name");
