@@ -9,16 +9,16 @@ loveScore = Math.floor(loveScore) + 1;
 
 //We can use this to change our results ID in our HTML
 if (loveScore > 70){
-    alert("Your love score is " + loveScore + "%" + " and you love each other like kanye loves kanye");
+    results.innerHTML = "Your love score is " + loveScore + "%" + " and you love each other like kanye loves kanye";
 }
 if (loveScore > 30 && loveScore <= 70) { 
-    alert("Your love score is " + loveScore + "%");
+    results.innerHTML = "Your love score is " + loveScore + "%";
 }
 if (loveScore <= 30) { 
-    alert("Your love score is " + loveScore + "%" + "you go together like oil and water");
+    results.innerHTML = "Your love score is " + loveScore + "%" + " you go together like oil and water";
 }
 else {
-    alert("Your love score is " + loveScore + "%");
+    results.innerHTML = "Your love score is " + loveScore + "%";
 }
 
 
