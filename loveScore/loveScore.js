@@ -1,3 +1,4 @@
+let results = document.getElementById("results");
 //This program gives us a love score for two people
 
 var name1 = prompt("Give me a name");
