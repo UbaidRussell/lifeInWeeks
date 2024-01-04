@@ -17,3 +17,7 @@ console.log(jefferey)
 console.log(victoria)
 console.log(jefferey.yearQuote());
 console.log(victoria.yearQuote());
+
+
+
+//We can use HTML and CSS tom make this website log the student objects to the screen, and we can use the same function to create more students and log them to the screen as well.
