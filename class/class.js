@@ -37,7 +37,7 @@ function displayStudents() {
     studentsList.innerHTML += '<p>No students created yet.</p>';
   } else {
     students.forEach((student, index) => {
-      studentsList.innerHTML += `<p>${index + 1}. ${student.name} - Age: ${student.age}, Gender: ${student.gender}, Quote: ${student.yearQuote()}</p>`;
+      studentsList.innerHTML += `<p>${index + 1}. ${student.name} - Age: ${student.age}, Gender: ${student.gender}, ${student.yearQuote()}</p>`;
     });
   }
 }
