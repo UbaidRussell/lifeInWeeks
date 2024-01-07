@@ -1,23 +1,43 @@
-//Here we created a function that allows us to create student objects with different properties
 const studentCreation = (name, age, gender, quote) => {
-    return{
-        name,age,gender, 
-        yearQuote(){
+    return {
+        name, age, gender,
+        yearQuote() {
             console.log(quote);
         }
-    }
+    };
+};
+
+const students = []; // Array to store created students
+
+function createStudent() {
+  // Extract values from the form
+  const name = document.getElementById('name').value;
+  const age = parseInt(document.getElementById('age').value, 10);
+  const gender = document.getElementById('gender').value;
+  const quote = document.getElementById('quote').value;
+
+  // Call studentCreation function
+  const newStudent = studentCreation(name, age, gender, quote);
+
+  // Add the new student to the array
+  students.push(newStudent);
+
+  //logs the student to the console
+    console.log(students);
+
+  // Display the list of created students
+  displayStudents();
 }
 
-//Here we use that function and create those objects of students giving them different properties
-const jefferey = studentCreation('Jefferey Whitlock', 20, 'male', 'You got this')
-const victoria = studentCreation('Victoria Samson', 21, 'Female', 'We will take the lead this year')
+function displayStudents() {
+  const studentsList = document.getElementById('studentsList');
+  studentsList.innerHTML = '<h2>Students:</h2>';
 
-//We simply call our objects to the console here. 
-console.log(jefferey)
-console.log(victoria)
-console.log(jefferey.yearQuote());
-console.log(victoria.yearQuote());
-
-
-
-//We can use HTML and CSS tom make this website log the student objects to the screen, and we can use the same function to create more students and log them to the screen as well.
+  if (students.length === 0) {
+    studentsList.innerHTML += '<p>No students created yet.</p>';
+  } else {
+    students.forEach((student, index) => {
+      studentsList.innerHTML += `<p>${index + 1}. ${student.name} - Age: ${student.age} - Gender: ${student.gender}</p>`;
+    });
+  }
+}
