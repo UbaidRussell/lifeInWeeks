@@ -2,7 +2,7 @@ const studentCreation = (name, age, gender, quote) => {
     return {
         name, age, gender,
         yearQuote() {
-            console.log(quote);
+            return quote;
         }
     };
 };
@@ -37,7 +37,7 @@ function displayStudents() {
     studentsList.innerHTML += '<p>No students created yet.</p>';
   } else {
     students.forEach((student, index) => {
-      studentsList.innerHTML += `<p>${index + 1}. ${student.name} - Age: ${student.age} - Gender: ${student.gender}</p>`;
+      studentsList.innerHTML += `<p>${index + 1}. ${student.name} - Age: ${student.age}, Gender: ${student.gender}, Quote: ${student.yearQuote()}</p>`;
     });
   }
 }
