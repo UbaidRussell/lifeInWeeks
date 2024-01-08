@@ -14,4 +14,20 @@ const lifePhase = age => {
 }
 }
 
-console.log(lifePhase(5)) //should print 'child'
+
+
+function calculateLifePhase() {
+  const ageInput = document.getElementById('ageInput');
+  const resultElement = document.getElementById('result');
+
+  const age = parseInt(ageInput.value, 10);
+
+  if (isNaN(age)) {
+    resultElement.textContent = 'Please enter a valid number.';
+  } else {
+    const phase = lifePhase(age);
+    resultElement.textContent = `You are a ${phase}.`;
+  }
+}
+
+
