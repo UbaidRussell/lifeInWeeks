@@ -3,7 +3,8 @@ body{
     font-family: 'Roboto', sans-serif;
     height: 100%;
     margin: 0;
-    background: linear-gradient(to bottom right, #43766C 50%, #23423c 50%);
+    background: rgb(2,0,36);
+    background: linear-gradient(32deg, rgba(2,0,36,1) 0%, rgba(67,118,108,1) 35%, rgba(11,208,170,1) 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
